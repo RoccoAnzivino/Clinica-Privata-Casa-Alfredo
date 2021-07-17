@@ -1,0 +1,44 @@
+[
+    {
+        "id": "p0001",
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "giorno_di_nascita": 16,
+        "mese_di_nascita": 10,
+        "anno_di_nascita": 1990,
+        "sesso": "M",
+        "provincia_di_nascita": "Chieti",
+        "citta_di_nascita" : "Chieti",
+        "codice_fiscale": "RSSMRA90R16C632Y",
+        "email": "mario.rossi@finta.com",
+        "password": "MarioMario.90"
+    },
+    {
+        "id": "p0002",
+        "nome": "Luigi",
+        "cognome": "Bianchi",
+        "giorno_di_nascita": 21,
+        "mese_di_nascita": 12,
+        "anno_di_nascita": 1988,
+        "sesso": "M",
+        "provincia_di_nascita": "Ancona",
+        "citta_di_nascita" : "Ancona",
+        "codice_fiscale": "BNCLGU88T21A271P",
+        "email": "luigi.bianchi@finta.com",
+        "password": "LuigiLuigi.88"
+    },
+    {
+        "id": "p0003",
+        "nome": "Maria",
+        "cognome": "Esposito",
+        "giorno_di_nascita": 18,
+        "mese_di_nascita": 11,
+        "anno_di_nascita": 1994,
+        "sesso": "F",
+        "provincia_di_nascita": "Pescara",
+        "citta_di_nascita" : "Popoli",
+        "codice_fiscale": "SPSMRA94S58G878P",
+        "email": "maria.esposito@finta.com",
+        "password": "MariaMaria.94"
+    }
+]

@@ -1,0 +1,345 @@
+[
+   {
+      "ambulatorio":"Medicina generale cardiologica",
+      "lista_specializzazioni":[
+         {
+            "specializzazione":"Cardiovascolari",
+            "lista_attivita_ambulatoriali":[
+               {
+                  "attivita_ambulatoriale":"Ecocardiografia",
+                  "durata":30,
+                  "prezzo":"€110"
+               },
+               {
+                  "attivita_ambulatoriale":"ECG basale o da sforzo",
+                  "durata":15,
+                  "prezzo":"€60"
+               },
+               {
+                  "attivita_ambulatoriale":"Holter cardiaco",
+                  "durata":15,
+                  "prezzo":"€60"
+               },
+               {
+                  "attivita_ambulatoriale":"Holter pressorio",
+                  "durata":15,
+                  "prezzo":"€50"
+               },
+               {
+                  "attivita_ambulatoriale":"Visita cardiologica",
+                  "durata":30,
+                  "prezzo":"€125"
+               },
+               {
+                  "attivita_ambulatoriale":"Visita Angiologica",
+                  "durata":20,
+                  "prezzo":"€50"
+               }
+            ]
+         },
+         {
+            "specializzazione":"Pneumologia",
+            "lista_attivita_ambulatoriali":[
+               {
+                  "attivita_ambulatoriale":"Visita Pneumologica",
+                  "durata":20,
+                  "prezzo":"€50"
+               }
+            ]
+         },
+         {
+            "specializzazione":"Gastroenterologia",
+            "lista_attivita_ambulatoriali":[
+               {
+                  "attivita_ambulatoriale":"Visita gastroenterologica",
+                  "durata":20,
+                  "prezzo":"€150"
+               },
+               {
+                  "attivita_ambulatoriale":"Gastroscopia",
+                  "durata":15,
+                  "prezzo":"€160"
+               },
+               {
+                  "attivita_ambulatoriale":"Colonscopia",
+                  "durata":30,
+                  "prezzo":"€210"
+               }
+            ]
+         },
+         {
+            "specializzazione":"Neurologia",
+            "lista_attivita_ambulatoriali":[
+               {
+                  "attivita_ambulatoriale":"Visita neurologica",
+                  "durata":30,
+                  "prezzo":"€100"
+               }
+            ]
+         }
+      ],
+      "giorni_apertura":[
+         "lunedì",
+         "mercoledì",
+         "venerdì"
+      ],
+      "orario_apertura_mattina":7,
+      "orario_chiusura_mattina":13,
+      "orario_apertura_pomeriggio":15,
+      "orario_chiusura_pomeriggio": 19,
+      "medici_operanti": [
+        {
+          "id": "pm0001",
+          "nome": "Mario",
+          "cognome": "Rossi",
+          "sesso": "M"
+        },
+        {
+          "id": "pm0002",
+          "nome": "Luigi",
+          "cognome": "Verdi",
+          "sesso": "M"
+        },
+        {
+          "id": "pm0003",
+          "nome": "Harry",
+          "cognome": "Salito",
+          "sesso": "M"
+        }
+    ]
+   },
+  {
+    "ambulatorio": "Endocrinologia",
+    "lista_attivita_ambulatoriali": [
+      {
+        "attivita_ambulatoriale": "Visita endocrinologica",
+        "durata": 40,
+        "prezzo": "€130"
+      },
+      {
+        "attivita_ambulatoriale": "Visita specialistica",
+        "durata": 30,
+        "prezzo": "€50"
+      }
+    ],
+    "giorni_apertura": [
+      "martedì",
+      "giovedì"
+    ],
+    "orario_apertura_mattina": 7,
+    "orario_chiusura_mattina": 12,
+    "orario_apertura_pomeriggio": 15,
+    "orario_chiusura_pomeriggio": 17,
+    "medici_operanti": [
+      {
+        "id": "pm0004",
+        "nome": "Lara",
+        "cognome": "Ghiando",
+        "sesso": "F"
+      }
+    ]
+  },
+  {
+    "ambulatorio": "Urologia/Andrologia",
+    "lista_attivita_ambulatoriali": [
+      {
+        "attivita_ambulatoriale": "Visita urologica",
+        "durata": 20,
+        "prezzo": "€100"
+      },
+      {
+        "attivita_ambulatoriale": "Visita andrologica",
+        "durata": 20,
+        "prezzo": "€120"
+      },
+      {
+        "attivita_ambulatoriale": "Cistoscopia",
+        "durata": 10,
+        "prezzo": "€300"
+      },
+      {
+        "attivita_ambulatoriale": "Ecografia renale",
+        "durata": 20,
+        "prezzo": "€40"
+      },
+      {
+        "attivita_ambulatoriale": "Ecografia vescicale",
+        "durata": 20,
+        "prezzo": "€40"
+      },
+      {
+        "attivita_ambulatoriale": "Ecog. prostatica sovrapubica",
+        "durata": 20,
+        "prezzo": "€40"
+      }
+    ],
+    "giorni_apertura": [
+      "mercoledì",
+      "giovedì",
+      "venerdì"
+    ],
+    "orario_apertura_mattina": 11,
+    "orario_chiusura_mattina": 13,
+    "orario_apertura_pomeriggio": 15,
+    "orario_chiusura_pomeriggio": 18,
+    "medici_operanti": [
+      {
+        "id": "pm0005",
+        "nome": "Harry",
+        "cognome": "Sorto",
+        "sesso": "M"
+      },
+      {
+        "id": "pm0006",
+        "nome": "Otto",
+        "cognome": "Urato",
+        "sesso": "M"
+      }
+    ]
+  },
+  {
+    "ambulatorio": "Oculistica",
+    "lista_attivita_ambulatoriali": [
+      {
+        "attivita_ambulatoriale": "Visita oculistica",
+        "durata": 30,
+        "prezzo": "€100"
+      },
+      {
+        "attivita_ambulatoriale": "Visita ortottica",
+        "durata": 30,
+        "prezzo": "€70"
+      },
+      {
+        "attivita_ambulatoriale": "Studio del campo visivo",
+        "durata": 30,
+        "prezzo": "€150"
+      },
+      {
+        "attivita_ambulatoriale": "Perimetria computerizzata",
+        "durata": 20,
+        "prezzo": "€130"
+      },
+      {
+        "attivita_ambulatoriale": "Pachimetria corneale",
+        "durata": 15,
+        "prezzo": "€100"
+      },
+      {
+        "attivita_ambulatoriale": "Tomografia corneale",
+        "durata": 15,
+        "prezzo": "€100"
+      }
+    ],
+    "giorni_apertura": [
+      "lunedì",
+      "mercoledì",
+      "sabato"
+    ],
+    "orario_apertura_mattina": 7,
+    "orario_chiusura_mattina": 13,
+    "orario_apertura_pomeriggio": 15,
+    "orario_chiusura_pomeriggio": 17,
+    "medici_operanti": [
+      {
+        "id": "pm0007",
+        "nome": "Chi",
+        "cognome": "Rivedi",
+        "sesso": "M"
+      },
+      {
+        "id": "pm0008",
+        "nome": "Lee",
+        "cognome": "Guarda",
+        "sesso": "M"
+      }
+    ]
+  },
+  {
+    "ambulatorio": "Ortopedia",
+    "lista_attivita_ambulatoriali": [
+      {
+        "attivita_ambulatoriale": "Visita ortopedica",
+        "durata": 20,
+        "prezzo": "€120"
+      },
+      {
+        "attivita_ambulatoriale": "Iniezioni intra-articolari",
+        "durata": 10,
+        "prezzo": "€60"
+      },
+      {
+        "attivita_ambulatoriale": "Trattamento rbt. ortopedico",
+        "durata": 60,
+        "prezzo": "€45"
+      }
+    ],
+    "giorni_apertura": [
+      "martedì",
+      "venerdì"
+    ],
+    "orario_apertura_mattina": 9,
+    "orario_chiusura_mattina": 14,
+    "orario_apertura_pomeriggio": 16,
+    "orario_chiusura_pomeriggio": 19,
+    "medici_operanti": [
+      {
+        "id": "pm0009",
+        "nome": "Oliver",
+        "cognome": "Hutton",
+        "sesso": "M"
+      }
+    ]
+  },
+  {
+    "ambulatorio": "Dermatologia",
+    "lista_attivita_ambulatoriali": [
+      {
+        "attivita_ambulatoriale": "Visita dermatologica",
+        "durata": 30,
+        "prezzo": "€80"
+      },
+      {
+        "attivita_ambulatoriale": "Biopsie cutanee",
+        "durata": 30,
+        "prezzo": "€150"
+      },
+      {
+        "attivita_ambulatoriale": "Mappatura nevi",
+        "durata": 30,
+        "prezzo": "€120"
+      },
+      {
+        "attivita_ambulatoriale": "Crioterapia",
+        "durata": 10,
+        "prezzo": "€130"
+      },
+      {
+        "attivita_ambulatoriale": "Dermatoscopia",
+        "durata": 40,
+        "prezzo": "€80"
+      }
+    ],
+    "giorni_apertura": [
+      "martedì"
+    ],
+    "orario_apertura_mattina": 7,
+    "orario_chiusura_mattina": 13,
+    "orario_apertura_pomeriggio": 15,
+    "orario_chiusura_pomeriggio": 19,
+    "medici_operanti": [
+      {
+        "id": "pm0010",
+        "nome": "Moris",
+        "cognome": "Pondo",
+        "sesso": "M"
+      },
+      {
+        "id": "pm0011",
+        "nome": "Marta",
+        "cognome": "Ferrari",
+        "sesso": "F"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registrazionePaziente</class>
+ <widget class="QWidget" name="registrazionePaziente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="font">
+   <font>
+    <family>Verdana</family>
+    <pointsize>12</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Clinica Casa Alfredo</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Immagini/logo_casa_alfredo.png</normaloff>Immagini/logo_casa_alfredo.png</iconset>
+  </property>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>35</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Immagini/logo_casa_alfredo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="titolo">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>14</y>
+     <width>160</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Immagini/titolo_casa_alfredo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="scritta">
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>320</y>
+     <width>381</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>*Attenzione! La password deve contenere 
+ almeno 8 caratteri, di cui almeno 
+ 1 numero, 1 lettera Maiuscola, 
+ 1 carattere speciale</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="registrati_button">
+   <property name="geometry">
+    <rect>
+     <x>316</x>
+     <y>482</y>
+     <width>265</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>33</red>
+         <green>97</green>
+         <blue>171</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#registrati_button {
+background-color: rgb(33, 97, 171);
+border: 1px solid;
+border-color: rgb(13, 41, 73);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+QPushButton#registrati_button:pressed {
+background-color: rgb(13, 41, 73);
+border-color: rgb(33, 97, 171);
+color: rgb(200, 200, 200);
+}</string>
+   </property>
+   <property name="text">
+    <string>Registrati ora</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="torna_indietro">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>565</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#torna_indietro {
+color: rgb(255, 255, 255);
+}
+
+QPushButton#torna_indietro:pressed {
+background-color: rgb(0, 0, 0, 0);
+color: rgb(200, 200, 200);
+}</string>
+   </property>
+   <property name="text">
+    <string>Torna Indietro</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="banner">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>560</y>
+     <width>901</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(13, 41, 73);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nome_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>166</x>
+     <y>115</y>
+     <width>253</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#nome_line_edit {
+border: 1px solid;
+padding-left: 8px;
+padding-right: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>605</x>
+     <y>225</y>
+     <width>250</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#password_line_edit {
+border: 1px solid;
+padding-left: 8px;
+padding-right: 8px;
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="occhiello_button">
+   <property name="geometry">
+    <rect>
+     <x>855</x>
+     <y>225</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#occhiello_button:pressed {
+background-color: rgb(0, 0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Immagini/occhiello_barrato_password.png</normaloff>Immagini/occhiello_barrato_password.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="registrazione">
+   <property name="geometry">
+    <rect>
+     <x>219</x>
+     <y>17</y>
+     <width>240</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(84, 149, 223);</string>
+   </property>
+   <property name="text">
+    <string>- REGISTRAZIONE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dati_personali">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Dati Personali</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>66</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nome:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cognome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>165</y>
+     <width>103</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cognome:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sesso">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>255</y>
+     <width>67</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sesso:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="citta_di_nascita">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>345</y>
+     <width>160</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Città di nascita:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="provincia">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Provincia:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data_di_nascita">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>160</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Data di nascita:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="codice_fiscale">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>145</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Codice fiscale:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cognome_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>166</x>
+     <y>160</y>
+     <width>253</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#cognome_line_edit {
+border: 1px solid;
+padding-left: 8px;
+padding-right: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="codice_fiscale_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>385</y>
+     <width>244</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#codice_fiscale_line_edit {
+border: 1px solid;
+padding-left: 8px;
+padding-right: 8px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="sesso_combo_box">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>250</y>
+     <width>65</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="citta_di_nascita_combo_box">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>340</y>
+     <width>250</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid;</string>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="modelColumn">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="provincia_combo_box">
+   <property name="geometry">
+    <rect>
+     <x>169</x>
+     <y>295</y>
+     <width>251</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: 1px solid;</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="data_di_nascita_date_edit">
+   <property name="geometry">
+    <rect>
+     <x>189</x>
+     <y>205</y>
+     <width>230</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+   <property name="currentSectionIndex">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="email">
+   <property name="geometry">
+    <rect>
+     <x>495</x>
+     <y>120</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>E-mail:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="password">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>230</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>*Password:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>574</x>
+     <y>115</y>
+     <width>281</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#email_line_edit {
+border: 1px solid;
+padding-left: 8px;
+padding-right: 8px;
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dati_account">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>70</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Dati Account</string>
+   </property>
+  </widget>
+  <zorder>logo</zorder>
+  <zorder>titolo</zorder>
+  <zorder>scritta</zorder>
+  <zorder>registrati_button</zorder>
+  <zorder>banner</zorder>
+  <zorder>torna_indietro</zorder>
+  <zorder>nome_line_edit</zorder>
+  <zorder>password_line_edit</zorder>
+  <zorder>occhiello_button</zorder>
+  <zorder>registrazione</zorder>
+  <zorder>dati_personali</zorder>
+  <zorder>nome</zorder>
+  <zorder>cognome</zorder>
+  <zorder>sesso</zorder>
+  <zorder>citta_di_nascita</zorder>
+  <zorder>provincia</zorder>
+  <zorder>data_di_nascita</zorder>
+  <zorder>codice_fiscale</zorder>
+  <zorder>cognome_line_edit</zorder>
+  <zorder>codice_fiscale_line_edit</zorder>
+  <zorder>sesso_combo_box</zorder>
+  <zorder>citta_di_nascita_combo_box</zorder>
+  <zorder>provincia_combo_box</zorder>
+  <zorder>data_di_nascita_date_edit</zorder>
+  <zorder>email</zorder>
+  <zorder>password</zorder>
+  <zorder>email_line_edit</zorder>
+  <zorder>dati_account</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
