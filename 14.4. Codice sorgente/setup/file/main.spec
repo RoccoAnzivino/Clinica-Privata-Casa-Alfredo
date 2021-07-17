@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\Emanuele\\Desktop\\Emanuele\\Programmi\\Programmazione\\Python\\Progetto Ingegneria del Software\\14.4. Codice sorgente'],
+             pathex=['C:\\Users\\Emanuele\\Desktop\\Emanuele\\Programmi\\Programmazione\\Python\\Clinica-Privata-Casa-Alfredo\\14.4. Codice sorgente'],
              binaries=[],
              datas=[],
              hiddenimports=[],

@@ -145,10 +145,14 @@ class ListaPrenotazioniPazienti:
                   aggiornato i database con l'aggiunta della nuova prenotazione
         :rtype: bool
         """
-        if not self.lista_prenotazioni:
+
+        with open('paziente/data/storico_prenotazioni.json', 'r') as storico_prenotazioni:
+            lista_storico_prenotazioni = json.load(storico_prenotazioni)
+
+        if not lista_storico_prenotazioni:
             id_prenotazione = 'pren0000'
         else:
-            id_prenotazione = self.lista_prenotazioni[-1].id_prenotazione
+            id_prenotazione = lista_storico_prenotazioni[-1]['id_prenotazione']
         prenotazione = Prenotazione(id_prenotazione, id_paziente, nome_paziente, cognome_paziente, ambulatorio,
                                     attivita_ambulatoriale, id_personale_medico, nome_personale_medico,
                                     cognome_personale_medico, sesso_personale_medico, data_ora_prenotazione,

@@ -124,6 +124,8 @@ Name: "{autodesktop}\Clinica Privata Casa Alfredo"; Filename: "{app}\Clinica Pri
 Filename: "{app}\Clinica Privata Casa Alfredo.exe"; Description: "{cm:LaunchProgram,Clinica Privata Casa Alfredo}"; Flags: runascurrentuser nowait postinstall skipifsilent
 
 [UninstallDelete]
+Type: files; Name: "{app}\paziente\data\prenotazioni.pickle"
+Type: files; Name: "{app}\paziente\data\prenotazioni_avvenute.pickle"
 Type: files; Name: "{app}\paziente\login_paziente\data\pazienti.pickle"
 Type: files; Name: "{app}\personale_medico\login_personale_medico\data\personale_medico.pickle"
 Type: files; Name: "{app}\personale_medico\data\*"
