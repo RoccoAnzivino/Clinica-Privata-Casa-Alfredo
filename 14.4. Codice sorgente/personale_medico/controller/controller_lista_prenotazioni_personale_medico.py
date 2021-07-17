@@ -55,7 +55,7 @@ class ControllerListaPrenotazioniPersonaleMedico:
 
         if not lista_pazienti_visitati.controller_lista_pazienti_visitati.model_lista_pazienti_visitati.\
                 lista_pazienti_da_modificare and not lista_pazienti_visitati.controller_lista_pazienti_visitati.\
-                model_lista_pazienti_visitati.lista_pazienti_modificati:
+                model_lista_pazienti_visitati.lista_pazienti_modificati_personale_medico:
             popup = QMessageBox()
             icona = QIcon()
             icona.addPixmap(QPixmap("Immagini/logo_casa_alfredo.png"), QIcon.Normal, QIcon.Off)

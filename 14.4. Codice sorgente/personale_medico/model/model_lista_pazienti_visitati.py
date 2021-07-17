@@ -50,6 +50,9 @@ class ListaPazientiVisitati:
         Funzione che pulisce la lista_prenotazioni, per poi popolarla nuovamente con le prenotazioni le cui date sono
         posteriori alla data attuale, aggiornando, infine, i database tramite le apposite funzioni
         """
+
+        lista_prenotazioni = []
+
         if os.path.isfile('paziente/data/prenotazioni.pickle'):
             with open('paziente/data/prenotazioni.pickle', 'rb') as prenotazioni:
                 lista_prenotazioni = pickle.load(prenotazioni)
