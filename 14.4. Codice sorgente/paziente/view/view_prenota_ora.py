@@ -210,7 +210,9 @@ class ViewPrenotaOra(QWidget):
 
         # calcolo limite massimo di un anno a partire dalla data di prenotazione
         data_oggi = datetime.date.today()
-        self.calendarWidget.setMinimumDate(QDate(data_oggi.year, data_oggi.month, data_oggi.day + 1))
+        shift_24_ore = datetime.timedelta(hours=24)
+        data_domani = data_oggi + shift_24_ore
+        self.calendarWidget.setMinimumDate(QDate(data_domani.year, data_domani.month, data_domani.day))
         self.calendarWidget.setMaximumDate(QDate(data_oggi.year + 1, data_oggi.month, data_oggi.day))
 
         self.medicina_generale_cardiologica.setGeometry(QtCore.QRect(90, 250, 360, 60))

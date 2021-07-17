@@ -78,7 +78,7 @@
  [],
  False,
  False,
- 1627676268,
+ 1626556453,
  [('runw.exe',
    'c:\\users\\emanuele\\desktop\\emanuele\\programmi\\programmazione\\python\\clinica-privata-casa-alfredo\\14.4. '
    'codice '

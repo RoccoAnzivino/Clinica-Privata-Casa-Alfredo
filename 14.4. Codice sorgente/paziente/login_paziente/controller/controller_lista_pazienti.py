@@ -160,9 +160,10 @@ class ControllerListaPazienti:
             popup.exec_()
             return
 
-        self.model_lista_pazienti.registrazione_paziente(self.widget.nome_line_edit.text(),
-                                                         self.widget.cognome_line_edit.text(),
-                                                         data_di_nascita,
+        nome = self.widget.nome_line_edit.text()[0:1].upper() + self.widget.nome_line_edit.text()[1:].lower()
+        cognome = self.widget.cognome_line_edit.text()[0:1].upper() + self.widget.cognome_line_edit.text()[1:].lower()
+
+        self.model_lista_pazienti.registrazione_paziente(nome, cognome, data_di_nascita,
                                                          self.model_lista_pazienti.calcolo_eta(data_di_nascita),
                                                          self.widget.sesso_combo_box.currentText(),
                                                          self.widget.provincia_combo_box.currentText(),
