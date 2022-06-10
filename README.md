@@ -20,5 +20,5 @@ Facoltà di Ingegneria Informatica e dell'Automazione</br>
 </br>
 </br>
 Gli studenti:</br>
-Anzivino Rocco, Giusti Kevin, Frisi Emanuele
+Anzivino Rocco, Frisi Emanuele, Giusti Kevin 
 </p>
